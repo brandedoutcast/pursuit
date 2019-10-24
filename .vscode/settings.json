@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.cache": true,
+        "**/dist": true,
+        "**/package-lock.json": true
+    },
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "stylusSupremacy.insertColons": false,
+    "stylusSupremacy.insertSemicolons": false,
+    "stylusSupremacy.insertBraces": false,
+    "stylusSupremacy.insertSpaceAfterComment": false,
+    "stylusSupremacy.insertParenthesisAroundIfCondition": false,
+    "stylusSupremacy.quoteChar": "\"",
+    "stylusSupremacy.sortProperties": "grouped",
+    "stylusSupremacy.alwaysUseExtends": true,
+    "stylusSupremacy.alwaysUseZeroWithoutUnit": true
+}

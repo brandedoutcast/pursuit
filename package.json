@@ -1,0 +1,26 @@
+{
+  "name": "pursuit",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "author": "Rohith Reddy <rohith@users.noreply.github.com> (https://rohith.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.6.0",
+    "vue": "^2.6.10",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-sw-asset-urls": "^0.1.2",
+    "stylus": "^0.54.5",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "posthtml": {
+    "recognizeSelfClosing": true
+  }
+}
